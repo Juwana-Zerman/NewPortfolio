@@ -36,14 +36,14 @@ body {
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
     text-transform: none;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
@@ -93,18 +93,18 @@ body {
   
   .btn-primary {
     background-color: #134ebd;
-    border-color: #6f90ce;
+    border-color: #134ebd;
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #6f90ce !important;
-    border-color: #6f90ce !important;
+    border-color: #134ebd !important;
     color: white;
   }
   
     
   ::selection {
-    background: #6f90ce;
+    background: #134ebd;
     text-shadow: none;
   }
   
@@ -129,7 +129,7 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #6f90ce;
+    background-color: #134ebd;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
@@ -138,9 +138,10 @@ body {
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
-  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav #mainNav .navbar-toggler.active, #mainNav .navbar-toggler:active, #mainNav .navbar-brand:hover {
     color: #6f90ce;
   }
+
   
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
@@ -404,7 +405,7 @@ body {
   }
 
   .about-image {
-    margin-left: 50px;
+    margin-left: auto;
     display: flex;
     justify-content: center;
     height: 250px;
@@ -414,14 +415,6 @@ body {
   .aboutme {
     margin-top: 60px;  
     padding-left: 60px;
-    
-    /*display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding-left: 80px;
-    
-    text-align: center;
-    width: 100%;*/
   }
 
   
@@ -430,8 +423,6 @@ body {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-  
-  
   }
   
   .rounded-circle {
@@ -443,20 +434,42 @@ body {
   }
   #promo {
     
-    margin: 10px 400px 10px 400px;
+    /*margin: 10px 400px 10px 400px;*/
     padding-top: 35px;
+    margin-right: 20px;
     background: #134ebd;
     color: white;
     height: 225px;
-    width: 225px;
-    border-radius: 200px;
+    width: 300px;
+    border-radius: 15px 50px;
     border: 7px solid #a5a8aa;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
   }
   
+  #motto {
+    border-radius: 15px 50px;
+    border: 7px solid #a5a8aa;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+    margin-left: 20px;
+    background: #134ebd;
+    color: white;
+    height: 225px;
+    width: 300px;
+    
+  }
  
+  #promoMotto {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: auto;
+    
+  }
   
   section#contact {
     background-color: #212529;
@@ -556,4 +569,33 @@ body {
   
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #6f90ce;
+  }
+
+  @media (min-width: 992px) {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    /*#promo {    
+      padding-top: 35px;
+      margin-right: 20px;
+      background: #134ebd;
+      color: white;
+      height: 225px;
+      width: 300px;
+      border-radius: 15px 50px;
+      border: 7px solid #a5a8aa;
+      font-size: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+  }*/
+
+  @media (min-width: 576px) and (max-width: 767px) {
+
+  }
+
+  @media (min-width: 320px) and (max-width: 575px) {
+
   }
