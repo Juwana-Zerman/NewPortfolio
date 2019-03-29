@@ -50,7 +50,7 @@ body {
   
   .subheading {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 13px;
     font-style: italic;
   }
   
@@ -120,11 +120,20 @@ body {
     background-color: #212529;
     position: fixed;
     height: 65px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
+
+  #navbarResponsive {
+    margin-left: 30px;
+  }
+
+
   
   #mainNav .navbar-toggler {
     font-size: 12px;
-    right: 0;
+    margin-right: 0;
     padding: 13px;
     text-transform: uppercase;
     color: white;
@@ -146,7 +155,7 @@ body {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 600;
-    padding: 0.75em 0;
+    padding: .75em 0;
     letter-spacing: 1px;
     color: #134ebd;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -159,8 +168,8 @@ body {
   
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 35px;
+      padding-bottom: 35px;
       -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
       transition: padding-top 0.3s, padding-bottom 0.3s;
       border: none;
@@ -172,7 +181,7 @@ body {
       transition: all 0.3s;
     }
     #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important;
+      padding: 1.1em 0.5em !important;
     }
     #mainNav.navbar-shrink {
       padding-top: 0;
@@ -414,7 +423,8 @@ body {
 
   .aboutme {
     margin-top: 60px;  
-    padding-left: 60px;
+    padding-left: 40px;
+    font-size: 10px;
   }
 
   
@@ -433,19 +443,19 @@ body {
     justify-content: center;
   }
   #promo {
-    
-    /*margin: 10px 400px 10px 400px;*/
-    padding-top: 35px;
-    margin-right: 20px;
+    padding-top: 15px;
+    margin-right: 15px;
     background: #134ebd;
     color: white;
     height: 225px;
-    width: 300px;
+    width: 335px;
     border-radius: 15px 50px;
     border: 7px solid #a5a8aa;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
+    
   }
   
   #motto {
@@ -454,19 +464,17 @@ body {
     font-size: 10px;
     font-weight: bold;
     text-align: center;
-    padding-top: 35px;
-    margin-left: 20px;
+    padding-top: 15px;
+    margin-left: 15px;
     background: #134ebd;
     color: white;
-    height: 225px;
-    width: 300px;
-    
+    height: 245px;
+    width: 335px;
+    margin-top: 30px;
   }
  
   #promoMotto {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    display: inline-block;
     margin: auto;
     
   }
@@ -597,9 +605,28 @@ body {
        display: flex;
        justify-content: space-between;
        flex-wrap: wrap;
-       width: 75%;
+       width: 90%;
+       margin: auto;
      }
-    
+     header.masthead {
+       width: 100%;
+     }
+     #mainNav {
+       display: inline-flex;
+       justify-content: space-between;
+       margin-right: 25px;
+       margin-left: 0;
+     }
+     .about-image {
+       font-size: 9px;
+     }
+    #promo {
+      margin-right: 5px;
+    }
+    #motto {
+      margin-left: 5px;
+    }
+    }
     /*#mainNav {
         position: absolute;
         text-align: center;
