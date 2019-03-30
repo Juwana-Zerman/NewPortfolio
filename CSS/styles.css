@@ -447,39 +447,23 @@ body {
   
   .about-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     font-weight: bold;
-    padding-left: 20px;
-    background-color: #134ebd;
-    border: 5px solid #a5a8aa;
+    text-align: center;
+    /*padding-left: 20px;*/
+    background-color: #a5a8aa;
+    border: 7px solid #134ebd;
   }
   
   .rounded-circle {
     overflow: hidden;
     border: 7px solid #969fad;
-    
     display: inline-flex;
     justify-content: center;
   }
   #promo {
-    padding-top: 15px;
-    margin-right: 15px;
-    background: #134ebd;
-    color: white;
-    height: 225px;
-    width: 335px;
-    border-radius: 15px 50px;
-    border: 7px solid #a5a8aa;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-    
-  }
-  
-  #motto {
     display: flex;
     justify-content: center;
     /*border-radius: 30px;/*15px 50px;*/
@@ -495,12 +479,49 @@ body {
     width: 335px;*/
     margin: auto;
     padding-top: 15px;
+    /*
+    padding-top: 15px;
+    margin-right: 15px;
+    background: #134ebd;
+    color: white;
+    height: 225px;
+    width: 335px;
+    border-radius: 15px 50px;
+    border: 7px solid #a5a8aa;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;*/
+    
+  }
+  
+  #motto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /*border-radius: 30px;/*15px 50px;*/
+    border: 7px solid #a5a8aa;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background: #134ebd;
+    color: white;
+    width: 90%;
+    height: 100px;
+    padding-top: 15px;
+    margin: auto;
+    /*height: 245px;
+    width: 335px;*/
   }
  
   #promoMotto {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding-bottom: 35px;
     margin: auto;
-    
+    width: 90%;
   }
   
   section#contact {
