@@ -50,7 +50,7 @@
   
   article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
-    
+    width: 100%;
   }
   
   body {
@@ -541,8 +541,7 @@
     width: 100%;
     padding-right: 10px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
   }
   
   @media (min-width: 576px) {
