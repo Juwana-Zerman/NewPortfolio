@@ -139,7 +139,7 @@ body {
   #mainNav .navbar-toggler {
     font-size: 12px;
     margin-right: 10px;
-    padding: 13px;
+    padding-bottom: 18px;
     text-transform: uppercase;
     color: white;
     border: 0;
@@ -482,6 +482,7 @@ body {
     width: 335px;*/
     margin: auto;
     padding-top: 25px;
+    margin-top: 50px;
        
   }
   
@@ -650,25 +651,28 @@ body {
        justify-content: center;
        margin-right: 5px;
        margin-left: 5px;
-       padding-bottom: 10px;
+       padding-bottom: 25px;
+       
        width: 100%;
+       text-align: center;
      }
      .about-image {
        font-size: 9px;
      }
     #promo {
       margin: 0 auto;
-      margin-top: 0;
+      margin-top: 50px;
       font-size: 11px;
       text-align: center;
       padding-top: 10px;
       
     }
     #motto {
-      margin: 0 auto;
+      
       text-align: center;
-      margin-top: 0;
-      margin-left: 45px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 35px;
       padding-top: 10px;
       font-size: 12px;
       padding-left: 20px;
@@ -689,14 +693,17 @@ body {
       
     }
     #motto {
-      padding-top: 10px;
-      margin-left: 30px;
+      padding-top: 5px;
+      margin-left: 5px;
+      margin-right: 20px;
+      width: 98%;
+      font-size: 8px;
     }
-    header.masthead {
+    .about-body {
+      width: 98%;
+    }
+    body {
       width: 100%;
-    }
-    #contact {
-      max-width: 100%;
     }
   } 
   

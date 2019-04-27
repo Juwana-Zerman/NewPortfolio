@@ -4175,8 +4175,10 @@
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1.0rem;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
     width: 100%;
+    
   }
   
   .navbar > .container,
@@ -4194,9 +4196,9 @@
   
   .navbar-brand {
     display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    /*margin-right: 0.5rem;*/
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
     padding-left: 10px;
     padding-right: 0;
     font-size: 1.25rem;
@@ -4245,12 +4247,13 @@
   }
   
   .navbar-toggler {
-    padding: 0.25rem 0.75rem;
+    padding: 0.75rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+    margin-bottom: 5px;
   }
   
   .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4311,6 +4314,10 @@
     .navbar-expand-sm .navbar-toggler {
       display: none;
     }
+    .navbar-toggler {
+      margin-bottom: 20px;
+    }
+   
   }
   
   @media (max-width: 767.98px) {
@@ -4352,6 +4359,10 @@
     }
     .navbar-expand-md .navbar-toggler {
       display: none;
+    }
+    .navbar-toggler {
+      margin-bottom: 10px;
+      padding: 0.5rem 0.75rem;
     }
   }
   
