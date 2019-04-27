@@ -50,6 +50,7 @@
   
   article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
+    
   }
   
   body {
@@ -546,26 +547,26 @@
   
   @media (min-width: 576px) {
     .container {
-      max-width: 576px;
+      max-width: 100%;
       
     }
   }
   
   @media (min-width: 768px) {
     .container {
-      max-width: 768px;
+      max-width: 100%;
     }
   }
   
   @media (min-width: 992px) {
     .container {
-      max-width: 992px;
+      max-width: 100%;
     }
   }
   
   @media (min-width: 1200px) {
     .container {
-      max-width: 1200px;
+      max-width: 100%;
     }
   }
   
@@ -583,8 +584,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -20px;
-    margin-left: -20px;
+    margin-right: -10px;
+    margin-left: -10px;
   }
   
   .no-gutters {

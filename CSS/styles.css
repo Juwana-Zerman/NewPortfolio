@@ -517,7 +517,7 @@ body {
   }
   
   section#contact {
-    /*background-color: #212529;*/
+    background-color: #212529;
     background-image: url("../img/rockybeach.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -702,8 +702,15 @@ body {
     .about-body {
       width: 98%;
     }
-    body {
-      width: 100%;
-    }
   } 
+
+  @media (min-width: 320px) and (max-width: 385px) {
+    #motto {
+      height: 155px;
+    }
+    #promo {
+      height: 160px;
+      padding-top: 5px;
+    }
+  }
   
