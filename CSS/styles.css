@@ -125,19 +125,20 @@ body {
     position: fixed;
     height: 65px;
     margin: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #navbarResponsive {
     margin-left: 30px;
+    margin-right: 30px;
   }
 
 
   
   #mainNav .navbar-toggler {
     font-size: 12px;
-    margin-right: 0;
+    margin-right: 10px;
     padding: 13px;
     text-transform: uppercase;
     color: white;
@@ -157,7 +158,7 @@ body {
 
   
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 14px;
     font-weight: 600;
     padding: .75em 0;
     letter-spacing: 1px;
@@ -180,7 +181,7 @@ body {
      /* background-color: transparent;*/
     }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 1.5em;
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
     }
@@ -194,7 +195,7 @@ body {
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
-      padding: 12px 0;
+      padding: 12px 12px;
     }
   }
   
@@ -206,6 +207,7 @@ body {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    width: 100%;
   }
   
   header.masthead .intro-text {
@@ -455,6 +457,7 @@ body {
     /*padding-left: 20px;*/
     background-color: #a5a8aa;
     border: 7px solid #134ebd;
+    border-radius: 5px;
   }
   
   .rounded-circle {
@@ -466,7 +469,7 @@ body {
   #promo {
     display: flex;
     justify-content: center;
-    /*border-radius: 30px;/*15px 50px;*/
+    border-radius: 5px;
     border: 7px solid #a5a8aa;
     font-size: 14px;
     font-weight: bold;
@@ -474,32 +477,19 @@ body {
     background: #134ebd;
     color: white;
     width: 90%;
-    height: 100px;
+    height: 125px;
     /*height: 245px;
     width: 335px;*/
     margin: auto;
-    padding-top: 15px;
-    /*
-    padding-top: 15px;
-    margin-right: 15px;
-    background: #134ebd;
-    color: white;
-    height: 225px;
-    width: 335px;
-    border-radius: 15px 50px;
-    border: 7px solid #a5a8aa;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;*/
-    
+    padding-top: 25px;
+       
   }
   
   #motto {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    /*border-radius: 30px;/*15px 50px;*/
+    border-radius: 5px;
     border: 7px solid #a5a8aa;
     font-size: 14px;
     font-weight: bold;
@@ -507,9 +497,10 @@ body {
     background: #134ebd;
     color: white;
     width: 90%;
-    height: 100px;
-    padding-top: 15px;
+    height: 125px;
+    padding-top: 25px;
     margin: auto;
+    
     /*height: 245px;
     width: 335px;*/
   }
@@ -525,16 +516,18 @@ body {
   }
   
   section#contact {
-    background-color: #212529;
+    /*background-color: #212529;*/
     background-image: url("../img/rockybeach.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
+    
   }
   
   section#contact .section-heading {
     color: #fff;
   }
-  
+  /*
   section#contact .form-group {
     margin-bottom: 25px;
   }
@@ -580,7 +573,7 @@ body {
     font-weight: 700;
     color: #ced4da;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
+  }*/
   
   footer {
     padding: 25px 0;
@@ -624,11 +617,7 @@ body {
     background-color: #6f90ce;
   }
 
-  @media (min-width: 992px) {
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
+  /*@media (min-width: 768px) and (max-width: 991px) {
     /*#promo {    
       padding-top: 35px;
       margin-right: 20px;
@@ -650,66 +639,64 @@ body {
        display: flex;
        justify-content: space-between;
        flex-wrap: wrap;
-       width: 90%;
+       width: 95%;
        margin: auto;
      }
      header.masthead {
-       width: 100%;
+       max-width: 100%;
      }
      #mainNav {
        display: inline-flex;
-       justify-content: space-between;
-       margin-right: 25px;
-       margin-left: 0;
+       justify-content: center;
+       margin-right: 5px;
+       margin-left: 5px;
+       padding-bottom: 10px;
+       width: 100%;
      }
      .about-image {
        font-size: 9px;
      }
     #promo {
-      margin-right: 5px;
+      margin: 0 auto;
+      margin-top: 0;
+      font-size: 11px;
+      text-align: center;
+      padding-top: 10px;
+      
     }
     #motto {
-      margin-left: 5px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 0;
+      margin-left: 45px;
+      padding-top: 10px;
+      font-size: 12px;
+      padding-left: 20px;
     }
     }
-    /*#mainNav {
-        position: absolute;
-        text-align: center;
-        display: flex;
-        justify-items: center;
-      
-  
-      }
-      #mainNav .navbar-toggler {
-        font-size: 10px;
-        margin: 0;
-        padding: 0;
-      }
     
-  }*/
 
   @media (min-width: 320px) and (max-width: 575px) {
+    #mainNav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      width: 99%;
 
+    }
+    #promo {
+      padding-top: 10px;
+      
+    }
+    #motto {
+      padding-top: 10px;
+      margin-left: 30px;
+    }
+    header.masthead {
+      width: 100%;
+    }
+    #contact {
+      max-width: 100%;
+    }
   } 
   
- /* #mainNav {
-    background-color: #212529;
-    position: fixed;
-    height: 65px;
-  }
-  
- #mainNav .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    background-color: #134ebd;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-  
-  #mainNav .navbar-brand {
-    color: #134ebd;
-    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }*/
