@@ -87,6 +87,7 @@ body {
   .btn {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
+    
   }
   
   .btn-xl {
@@ -98,6 +99,7 @@ body {
   .btn-primary {
     background-color: #134ebd;
     border-color: #134ebd;
+    
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -694,6 +696,12 @@ body {
     .about-body {
       width: 98%;
     }
+    .btn {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 5px;
+    }
+    
   } 
 
   @media (min-width: 320px) and (max-width: 385px) {
@@ -703,5 +711,18 @@ body {
     #promo {
       height: 160px;
       padding-top: 5px;
+    }
+    .modal-title {
+      font-size: 12px;
+      text-align: center;
+    }
+    #modal-reads {
+      font-size: 30px;
+    }
+    #modal-reviews {
+      font-size: 30px;
+    }
+    #modal-heart {
+      font-size: 28px;
     }
   }
