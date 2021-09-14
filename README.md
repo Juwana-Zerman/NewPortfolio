@@ -9,7 +9,6 @@ This portfolio was built from the following theme:
 
 [![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
 ## Status
 
